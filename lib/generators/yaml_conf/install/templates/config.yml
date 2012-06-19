@@ -1,0 +1,19 @@
+# Edit this YAML file to add configuration values to your application.
+#
+# Variables may be accessed as follows:
+#   CONFIG[:foo]
+#   => "bar" 
+#
+# You can remove the "foo" key, it's just for illustration and to make a valid YAML file
+
+common: &common
+  foo: bar
+  
+development:
+  <<: *common
+  
+test:
+  <<: *common
+  
+production:
+  <<: *common
