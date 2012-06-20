@@ -5,7 +5,7 @@ module YamlConf
         ::CONFIG = YAML.load_file(File.join(Rails.root, "config", "config.yml"))[Rails.env].with_indifferent_access
       rescue Errno::ENOENT
         # config file does not exist yet
-        ::CONFIG = nil
+        ::CONFIG = {}
       end
     end
   end
