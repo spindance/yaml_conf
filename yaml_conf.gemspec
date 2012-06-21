@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["david.vangeest@gmail.com"]
   gem.description   = %q{Organize your Rails application configuration into a YAML file}
   gem.summary       = %q{Creates a YAML file to store Rails application configuration and loads it into a global variable}
-  gem.homepage      = "https://github.com/DWvanGeest/yaml_conf"
+  gem.homepage      = "https://github.com/spindance/yaml_conf"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
