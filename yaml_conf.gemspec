@@ -2,8 +2,8 @@
 require File.expand_path('../lib/yaml_conf/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["David van Geest"]
-  gem.email         = ["david.vangeest@gmail.com"]
+  gem.authors       = ["SpinDance, Inc."]
+  gem.email         = ["rubygems@spindance.com"]
   gem.description   = %q{Organize your Rails application configuration into a YAML file}
   gem.summary       = %q{Creates a YAML file to store Rails application configuration and loads it into a global variable}
   gem.homepage      = "https://github.com/spindance/yaml_conf"
